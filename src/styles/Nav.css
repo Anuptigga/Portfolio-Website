@@ -1,0 +1,36 @@
+.logo{
+    color:white;
+    font-weight: bold;
+}
+span{
+    color:#F05454;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nav_list li{
+    color:white;
+    font-weight: bold;
+    list-style-type:none;
+    display: inline-block;
+    padding:10px 20px;
+}
+li:hover{
+    color:#F05454;
+    transition: 0.3s;
+}
+li.active{
+    border-bottom: 3px solid #F05454;
+}
+.btn{
+    color:white;
+    border:none;
+    background-color:#F05454;
+    border-radius:30px;
+    padding: 10px 20px;
+}
